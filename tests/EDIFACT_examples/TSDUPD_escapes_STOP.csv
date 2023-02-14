@@ -1,0 +1,5 @@
+"stop_id";"function_code";"uic_code";"location_name";"location_short_name";"latitude";"longitude";"valid_from";"valid_to";"default_transfer_time";"country";"timezone_1";"timezone_2";"reservation_code"
+"1";"29";"007300101";"Piraeus? + : * '";"Piraeus";"375656N";"233833E";"2021-08-12";"2999-12-31";"0005";"GR";"EET";"2";"007300101"
+"2";"29";"005102443";"BIELSK PODLASKI";"BIELSK";"524541N";"231117E";"2022-07-29";"2999-12-31";"0004";"PL";"CET";"1";"5101101"
+"3";"29";"005107840";"SUCHA BESKIDZKA";"SUCHA";"494426N";"193450E";"2020-12-03";"2999-12-31";"0002";"PL";"CET";"1";"005100183"
+"4";"29";"008734657";"MONTCHEVRIER ""LA MESSILLE""";"MONTCHEVRIER";"";"";"2014-05-07";"2999-12-31";"";"FR";"CET";"1";""

@@ -1,0 +1,5 @@
+"footpath_id";"stop_id";"uic_code_1";"uic_code_2";"duration";"duration_unit";"relationship_code_13";"footpath_6_or_hierarchy_14";"attributes_with_semicolon";"service_brand_1";"service_brand_2";"service_provider_1";"service_provider_2"
+"1";"1";"007300101";"007350001";"8";"MIN";"13";"6";"21;";"53";"54";"1186";"X292"
+"2";"1";"007300101";"007350001";"";"";"13";"14";"";"";"";"";""
+"3";"6";"008301699";"008301700";"10";"MIN";"13";"6";"";"";"";"";""
+"4";"6";"008301699";"008301700";"20";"MIN";"13";"6";"21;";"";"";"";""

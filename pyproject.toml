@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "merits"
+version = "0.0.54"
+authors = [
+    { name = "Sylvain Castelot", email = "castelot@uic.org" },
+]
+description = "Transformation of both timetable and location data structures between MERITS EDIFACT and CSV in both directions."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/UnionInternationalCheminsdeFer/MERITS-open-source-tools-POC"
+"MERITS database" = "https://uic.org/passenger/passenger-services-group/merits"
+
+[project.scripts]
+merits-convert = "merits.cmd.main:main"
+skdupd2csv = "merits.cmd.main:skdupd_2_csv"
+csv2skdupd = "merits.cmd.main:csv_2_skdupd"
+tsdupd2csv = "merits.cmd.main:tsdupd_2_csv"
+csv2tsdupd = "merits.cmd.main:csv_2_tsdupd"
+skdupd2csvmulti = "merits.cmd.main:skdupd_2_csv_multi"
+csv2skdupdmulti = "merits.cmd.main:csv_2_skdupd_multi"
+tsdupd2csvmulti = "merits.cmd.main:tsdupd_2_csv_multi"
+csv2tsdupdmulti = "merits.cmd.main:csv_2_tsdupd_multi"

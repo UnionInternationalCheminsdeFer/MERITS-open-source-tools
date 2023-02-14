@@ -1,0 +1,297 @@
+Exited leaf "start".
+Entered leaf "UIB".
+    "syntax_identifier    " = "UNOB"
+    "syntax_version_number" = "4"
+    "initiator            " = "2022-07-26T112758"
+Exited leaf "UIB".
+Entered leaf "UIH".
+    "message_type   " = "SKDUPD"
+    "message_version" = "D"
+    "message_release" = "04A"
+    "sequence_number" = "1"
+    "initiator      " = "2022-07-26T112758"
+Exited leaf "UIH".
+Entered leaf "MSD".
+    "business_function_code" = "AAR"
+    "message_function_code " = "61"
+Exited leaf "MSD".
+Entered leaf "ORG".
+    "message_provider  " = "0000"
+    "timetable_provider" = "0000"
+Exited leaf "ORG".
+Entered leaf "HDR".
+    "status_description_code" = "81"
+    "validity_code          " = "273"
+    "validity               " = "2021-01-01/2021-12-12"
+    "qualifier_code_1       " = "45"
+    "date_1                 " = "2022-07-26T1127"
+    "reference_number       " = "2022-07-26T112758"
+Exited leaf "HDR".
+Entered branch "2_PRD".
+Entered leaf "2_PRD/PRD".
+    "service_number      " = "3"
+    "reservation         " = "11"
+    "tariff              " = "1"
+    "service_mode        " = "3"
+    "service_name        " = "ALPHA TANGO"
+    "service_provider    " = "0060"
+    "information_provider" = ""
+    "reservation_company " = "80"
+Exited leaf "2_PRD/PRD".
+Entered leaf "2_PRD/RFR".
+    "reference_function_code" = "AVI"
+    "second_service_number  " = "33"
+Exited leaf "2_PRD/RFR".
+Entered branch "2_PRD/4_POP".
+Entered leaf "2_PRD/4_POP/POP".
+    "period_qualifier  " = "273"
+    "first_day_last_day" = "2021-08-23/2021-08-28"
+    "days              " = "101111"
+Exited leaf "2_PRD/4_POP/POP".
+Entered branch "2_PRD/4_POP/7_POR".
+Entered leaf "2_PRD/4_POP/7_POR/POR".
+    "uic               " = "006070001"
+    "arrival           " = ""
+    "departure         " = "0503"
+    "arrival_platform  " = ""
+    "departure_platform" = "1"
+    "location_qualifier" = "5"
+Exited leaf "2_PRD/4_POP/7_POR/POR".
+Entered leaf "2_PRD/4_POP/7_POR/ASD".
+    "asd_code" = "7"
+Exited leaf "2_PRD/4_POP/7_POR/ASD".
+Entered leaf "2_PRD/4_POP/7_POR/ASD".
+    "asd_code  " = "44"
+    "first_time" = ""
+    "last_time " = "0453"
+Exited leaf "2_PRD/4_POP/7_POR/ASD".
+Entered leaf "2_PRD/4_POP/7_POR/TRF".
+    "trf_code" = "1"
+Exited leaf "2_PRD/4_POP/7_POR/TRF".
+Exited branch "2_PRD/4_POP/7_POR".
+Entered branch "2_PRD/4_POP/7_POR".
+Entered leaf "2_PRD/4_POP/7_POR/POR".
+    "uic               " = "006070013"
+    "arrival           " = "0445"
+    "arrival_offset    " = "1"
+    "departure         " = "0400"
+    "departure_offset  " = "1"
+    "arrival_platform  " = "3"
+    "departure_platform" = "3"
+    "location_qualifier" = "17"
+Exited leaf "2_PRD/4_POP/7_POR/POR".
+Entered leaf "2_PRD/4_POP/7_POR/MES".
+    "distance" = "190"
+    "unit    " = "KMT"
+Exited leaf "2_PRD/4_POP/7_POR/MES".
+Entered leaf "2_PRD/4_POP/7_POR/ASD".
+    "asd_code" = "9"
+Exited leaf "2_PRD/4_POP/7_POR/ASD".
+Entered leaf "2_PRD/4_POP/7_POR/ASD".
+    "asd_code  " = "44"
+    "first_time" = ""
+    "last_time " = "0330"
+Exited leaf "2_PRD/4_POP/7_POR/ASD".
+Entered leaf "2_PRD/4_POP/7_POR/ASD".
+    "asd_code  " = "45"
+    "first_time" = "0505"
+Exited leaf "2_PRD/4_POP/7_POR/ASD".
+Entered leaf "2_PRD/4_POP/7_POR/TRF".
+    "trf_code" = "4"
+Exited leaf "2_PRD/4_POP/7_POR/TRF".
+Entered branch "2_PRD/4_POP/7_POR/8_RFR".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/RFR".
+    "reference_function_code" = "AUE"
+    "service_number         " = "02"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/RFR".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/RLS".
+    "relation_type_code" = "13"
+    "relation          " = "8"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/RLS".
+Exited branch "2_PRD/4_POP/7_POR/8_RFR".
+Entered branch "2_PRD/4_POP/7_POR/8_RFR".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/RFR".
+    "reference_function_code" = "AUE"
+    "service_number         " = "03"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/RFR".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/RLS".
+    "relation_type_code" = "13"
+    "relation          " = "11"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/RLS".
+Exited branch "2_PRD/4_POP/7_POR/8_RFR".
+Entered branch "2_PRD/4_POP/7_POR/8_RFR".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/RFR".
+    "reference_function_code" = "AUE"
+    "service_number         " = "45"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/RFR".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/RLS".
+    "relation_type_code" = "13"
+    "relation          " = "7"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/RLS".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/TCE".
+    "transfer_time" = "10"
+    "certainty    " = "1"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/TCE".
+Exited branch "2_PRD/4_POP/7_POR/8_RFR".
+Entered branch "2_PRD/4_POP/7_POR/8_RFR".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/RFR".
+    "reference_function_code" = "AUE"
+    "service_number         " = "60"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/RFR".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/RLS".
+    "relation_type_code" = "13"
+    "relation          " = "7"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/RLS".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/TCE".
+    "transfer_time" = "30"
+    "certainty    " = "X02"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/TCE".
+Exited branch "2_PRD/4_POP/7_POR/8_RFR".
+Entered branch "2_PRD/4_POP/7_POR/8_RFR".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/RFR".
+    "reference_function_code" = "AUE"
+    "service_number         " = "75"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/RFR".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/RLS".
+    "relation_type_code" = "13"
+    "relation          " = "7"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/RLS".
+Entered leaf "2_PRD/4_POP/7_POR/8_RFR/TCE".
+    "transfer_time" = ""
+    "certainty    " = "X04"
+Exited leaf "2_PRD/4_POP/7_POR/8_RFR/TCE".
+Exited branch "2_PRD/4_POP/7_POR/8_RFR".
+Exited branch "2_PRD/4_POP/7_POR".
+Entered branch "2_PRD/4_POP/7_POR".
+Entered leaf "2_PRD/4_POP/7_POR/POR".
+    "uic    " = "006070016"
+    "arrival" = "0500"
+Exited leaf "2_PRD/4_POP/7_POR/POR".
+Entered leaf "2_PRD/4_POP/7_POR/MES".
+    "distance" = "200"
+    "unit    " = "KMT"
+Exited leaf "2_PRD/4_POP/7_POR/MES".
+Entered leaf "2_PRD/4_POP/7_POR/ASD".
+    "asd_code  " = "45"
+    "first_time" = "0540"
+Exited leaf "2_PRD/4_POP/7_POR/ASD".
+Exited branch "2_PRD/4_POP/7_POR".
+Entered branch "2_PRD/4_POP/7_POR".
+Entered leaf "2_PRD/4_POP/7_POR/POR".
+    "uic             " = "005514449"
+    "arrival         " = "2347"
+    "arrival_offset  " = "1"
+    "departure       " = "0017"
+    "departure_offset" = "1"
+Exited leaf "2_PRD/4_POP/7_POR/POR".
+Exited branch "2_PRD/4_POP/7_POR".
+Entered branch "2_PRD/4_POP/9_ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/ODI".
+    "from_stop       " = "006070001"
+    "to_stop         " = "006070013"
+    "from_stop_number" = "1"
+    "to_stop_number  " = "2"
+Exited leaf "2_PRD/4_POP/9_ODI/ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/PDT".
+    "reservation" = ""
+    "brand_code " = "84"
+Exited leaf "2_PRD/4_POP/9_ODI/PDT".
+Exited branch "2_PRD/4_POP/9_ODI".
+Entered branch "2_PRD/4_POP/9_ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/ODI".
+    "from_stop       " = "006070013"
+    "to_stop         " = "006070016"
+    "from_stop_number" = "2"
+    "to_stop_number  " = "3"
+Exited leaf "2_PRD/4_POP/9_ODI/ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/PDT".
+    "reservation" = ""
+    "brand_code " = "58"
+Exited leaf "2_PRD/4_POP/9_ODI/PDT".
+Exited branch "2_PRD/4_POP/9_ODI".
+Entered branch "2_PRD/4_POP/9_ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/ODI".
+    "from_stop       " = "006070001"
+    "to_stop         " = "006070016"
+    "from_stop_number" = "1"
+    "to_stop_number  " = "3"
+Exited leaf "2_PRD/4_POP/9_ODI/ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/ASD".
+    "asd_code" = "30"
+Exited leaf "2_PRD/4_POP/9_ODI/ASD".
+Exited branch "2_PRD/4_POP/9_ODI".
+Entered branch "2_PRD/4_POP/9_ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/ODI".
+    "from_stop       " = "006070001"
+    "to_stop         " = "006070016"
+    "from_stop_number" = "1"
+    "to_stop_number  " = "3"
+Exited leaf "2_PRD/4_POP/9_ODI/ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/ASD".
+    "asd_code" = "46"
+Exited leaf "2_PRD/4_POP/9_ODI/ASD".
+Exited branch "2_PRD/4_POP/9_ODI".
+Entered branch "2_PRD/4_POP/9_ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/ODI".
+    "from_stop       " = "006070001"
+    "to_stop         " = "006070016"
+    "from_stop_number" = "1"
+    "to_stop_number  " = "3"
+Exited leaf "2_PRD/4_POP/9_ODI/ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/ASD".
+    "asd_code" = "5"
+Exited leaf "2_PRD/4_POP/9_ODI/ASD".
+Exited branch "2_PRD/4_POP/9_ODI".
+Entered branch "2_PRD/4_POP/9_ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/ODI".
+    "from_stop       " = "006070001"
+    "to_stop         " = "006070016"
+    "from_stop_number" = "1"
+    "to_stop_number  " = "3"
+Exited leaf "2_PRD/4_POP/9_ODI/ODI".
+Entered branch "2_PRD/4_POP/9_ODI/10_SER".
+Entered leaf "2_PRD/4_POP/9_ODI/10_SER/SER".
+    "ser_code" = "26"
+Exited leaf "2_PRD/4_POP/9_ODI/10_SER/SER".
+Exited branch "2_PRD/4_POP/9_ODI/10_SER".
+Exited branch "2_PRD/4_POP/9_ODI".
+Entered branch "2_PRD/4_POP/9_ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/ODI".
+    "from_stop       " = "006070001"
+    "to_stop         " = "006070016"
+    "from_stop_number" = "1"
+    "to_stop_number  " = "3"
+Exited leaf "2_PRD/4_POP/9_ODI/ODI".
+Entered branch "2_PRD/4_POP/9_ODI/10_SER".
+Entered leaf "2_PRD/4_POP/9_ODI/10_SER/SER".
+    "ser_code      " = "4"
+    "reservation   " = "13"
+    "units_quantity" = "2"
+Exited leaf "2_PRD/4_POP/9_ODI/10_SER/SER".
+Exited branch "2_PRD/4_POP/9_ODI/10_SER".
+Exited branch "2_PRD/4_POP/9_ODI".
+Entered branch "2_PRD/4_POP/9_ODI".
+Entered leaf "2_PRD/4_POP/9_ODI/ODI".
+    "from_stop       " = "006070001"
+    "to_stop         " = "006070016"
+    "from_stop_number" = "1"
+    "to_stop_number  " = "3"
+Exited leaf "2_PRD/4_POP/9_ODI/ODI".
+Entered branch "2_PRD/4_POP/9_ODI/10_SER".
+Entered leaf "2_PRD/4_POP/9_ODI/10_SER/SER".
+    "ser_code      " = "5"
+    "reservation   " = "12"
+    "units_quantity" = "1"
+Exited leaf "2_PRD/4_POP/9_ODI/10_SER/SER".
+Exited branch "2_PRD/4_POP/9_ODI/10_SER".
+Exited branch "2_PRD/4_POP/9_ODI".
+Exited branch "2_PRD/4_POP".
+Exited branch "2_PRD".
+Entered leaf "UIT".
+    "message_reference " = "1"
+    "number_of_segments" = "51"
+Exited leaf "UIT".
+Entered leaf "UIZ".
+    "initiator         " = "2022-07-26T112758"
+    "number_of_messages" = "1"
+Exited leaf "UIZ".

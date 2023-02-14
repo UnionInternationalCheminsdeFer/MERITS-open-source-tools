@@ -1,0 +1,5 @@
+"por_id";"train_id";"stop_number";"uic";"arrival_time";"arrival_time_offset";"departure_time";"departure_time_offset";"arrival_platform";"departure_platform";"property";"traffic_restriction_code";"distance_and_unit";"loading_vehicles";"unloading_vehicles";"check_out";"check_in"
+"1";"1";"1";"006070001";"";"";"0503";"";"";"1";"5";"1";"";"ASD+7";"";"0453";""
+"2";"1";"2";"006070013";"0445";"1";"0400";"1";"3";"3";"17";"4";"190:KMT";"";"ASD+9";"0330";"0505"
+"3";"1";"3";"006070016";"0500";"";"";"";"";"";"";"";"200:KMT";"";"";"";"0540"
+"4";"1";"4";"005514449";"2347";"1";"0017";"1";"";"";"";"";"";"";"";"";""
